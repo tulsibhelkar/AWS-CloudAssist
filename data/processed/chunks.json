@@ -1,0 +1,560 @@
+[
+    {
+        "chunk_id": "ec2_001_chunk_001",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 0,
+        "content": "What is Amazon EC2?\nAmazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing capacity in the Amazon Web\nServices (AWS) Cloud. Using Amazon EC2 reduces hardware costs so you can develop and deploy\napplications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you\nneed, configure security and networking, and manage storage. You can add capacity (scale up)\nto handle compute-heavy tasks, such as monthly or yearly processes, or spikes in website\ntraffic. When usage decreases, you can reduce capacity (scale down) again.\nAn EC2 instance is a virtual server in the AWS Cloud. When you launch an EC2 instance,\nthe instance type that you specify determines the hardware available to your instance.\nEach instance type offers a different balance of compute, memory, network, and storage\nresources. For more information, see the\nAmazon EC2 Instance Types Guide\n.\nFeatures of Amazon EC2\nAmazon EC2 provides the following high-level features:\nInstances"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_002",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 1,
+        "content": "resources. For more information, see the\nAmazon EC2 Instance Types Guide\n.\nFeatures of Amazon EC2\nAmazon EC2 provides the following high-level features:\nInstances\nVirtual servers.\nAmazon Machine Images (AMIs)\nPreconfigured templates for your instances that package the components you\nneed for your server (including the operating system and additional\nsoftware).\nInstance types\nVarious configurations of CPU, memory, storage, networking capacity, and\ngraphics hardware for your instances.\nAmazon EBS volumes\nPersistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS).\nInstance store volumes\nStorage volumes for temporary data that is deleted when you stop,\nhibernate, or terminate your instance.\nKey pairs\nSecure login information for your instances. AWS stores the public key\nand you store the private key in a secure place.\nSecurity groups\nA virtual firewall that allows you to specify the protocols, ports, and"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_003",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 2,
+        "content": "and you store the private key in a secure place.\nSecurity groups\nA virtual firewall that allows you to specify the protocols, ports, and\nsource IP ranges that can reach your instances, and the destination IP\nranges to which your instances can connect.\nAmazon EC2 supports the processing, storage, and transmission\nof credit card data by a merchant or service provider, and has been\nvalidated as being compliant with Payment Card Industry (PCI) Data Security Standard (DSS).\nFor more information about PCI DSS, including how to request a copy of the AWS PCI Compliance Package,\nsee\nPCI DSS Level 1\n.\nRelated services\nServices to use with Amazon EC2\nYou can use other AWS services with the instances that you deploy using Amazon EC2.\nAmazon EC2 Auto Scaling\nHelps ensure you have the correct number of Amazon EC2 instances available to\nhandle the load for your application.\nAWS Backup\nAutomate backing up your Amazon EC2 instances and the Amazon EBS volumes attached to\nthem.\nAmazon CloudWatch"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_004",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 3,
+        "content": "handle the load for your application.\nAWS Backup\nAutomate backing up your Amazon EC2 instances and the Amazon EBS volumes attached to\nthem.\nAmazon CloudWatch\nMonitor your instances and Amazon EBS volumes.\nElastic Load Balancing\nAutomatically distribute incoming application traffic across multiple\ninstances.\nAmazon GuardDuty\nDetect potentially unauthorized or malicious use of your EC2 instances.\nEC2 Image Builder\nAutomate the creation, management, and deployment of customized, secure, and\nup-to-date server images.\nAWS Launch Wizard\nSize, configure, and deploy AWS resources for third-party applications\nwithout having to manually identify and provision individual AWS\nresources.\nAWS Systems Manager\nPerform operations at scale on EC2 instances with this secure end-to-end\nmanagement solution.\nAdditional compute services\nYou can launch instances using another AWS compute service instead of using Amazon EC2.\nAmazon Lightsail"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_005",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 4,
+        "content": "management solution.\nAdditional compute services\nYou can launch instances using another AWS compute service instead of using Amazon EC2.\nAmazon Lightsail\nBuild websites or web applications using Amazon Lightsail, a cloud platform\nthat provides the resources that you need to deploy your project quickly, for\na low, predictable monthly price. To compare Amazon EC2 and Lightsail, see\nAmazon Lightsail or Amazon EC2\n.\nAmazon Elastic Container Service (Amazon ECS)\nDeploy, manage, and scale containerized applications on a cluster of EC2\ninstances. For more information, see\nChoosing an AWS container service\n.\nAmazon Elastic Kubernetes Service (Amazon EKS)\nRun your Kubernetes applications on AWS. For more information, see\nChoosing an AWS container service\n.\nAccess Amazon EC2\nYou can create and manage your Amazon EC2 instances using the following interfaces:\nAmazon EC2 console\nA simple web interface to create and manage Amazon EC2 instances and resources."
+    },
+    {
+        "chunk_id": "ec2_001_chunk_006",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 5,
+        "content": "You can create and manage your Amazon EC2 instances using the following interfaces:\nAmazon EC2 console\nA simple web interface to create and manage Amazon EC2 instances and resources.\nIf you've signed up for an AWS account, you can access the Amazon EC2 console\nby signing into the AWS Management Console and selecting\nEC2\nfrom\nthe console home page.\nAWS Command Line Interface\nEnables you to interact with AWS services using commands in your command-line shell. It\nis supported on Windows, Mac, and Linux. For more information about the\nAWS CLI , see\nAWS Command Line Interface User Guide\n. You can find the Amazon EC2 commands in the\nAWS CLI Command Reference\n.\nCloudFormation\nAmazon EC2 supports creating resources using CloudFormation. You create a template, in JSON or YAML\nformat, that describes your AWS resources, and CloudFormation provisions and\nconfigures those resources for you. You can reuse your CloudFormation\ntemplates to provision the same resources multiple times, whether in the"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_007",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 6,
+        "content": "configures those resources for you. You can reuse your CloudFormation\ntemplates to provision the same resources multiple times, whether in the\nsame Region and account or in multiple Regions and accounts. For more\ninformation about supported resource types and properties for Amazon EC2, see\nEC2 resource type\nreference\nin the\nAWS CloudFormation User Guide\n.\nAWS SDKs\nIf you prefer to build applications using language-specific APIs instead\nof submitting a request over HTTP or HTTPS, AWS provides libraries, sample\ncode, tutorials, and other resources for software developers. These\nlibraries provide basic functions that automate tasks such as\ncryptographically signing your requests, retrying requests, and handling\nerror responses, making it easier for you to get started. For more\ninformation, see\nTools to Build\non AWS\n.\nAWS Tools for PowerShell\nA set of PowerShell modules that are built on the functionality exposed by"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_008",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 7,
+        "content": "information, see\nTools to Build\non AWS\n.\nAWS Tools for PowerShell\nA set of PowerShell modules that are built on the functionality exposed by\nthe SDK for .NET. The Tools for PowerShell enable you to script operations on your AWS\nresources from the PowerShell command line. To get started, see the\nAWS Tools for PowerShell User Guide\n. You can find the cmdlets for Amazon EC2, in the\nAWS Tools for PowerShell Cmdlet Reference\n.\nQuery API\nAmazon EC2 provides a Query API. These requests are HTTP or HTTPS requests that\nuse the HTTP verbs GET or POST and a Query parameter named\nAction\n. For more information about the API actions for\nAmazon EC2, see\nActions\nin the\nAmazon EC2 API Reference\n.\nPricing for Amazon EC2\nAmazon EC2 provides the following pricing options:\nFree Tier\nYou can get started with Amazon EC2 for free. To explore the Free Tier options,\nsee\nAWS Free Tier\n.\nOn-Demand Instances\nPay for the instances that you use by the second, with a minimum of 60"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_009",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 8,
+        "content": "You can get started with Amazon EC2 for free. To explore the Free Tier options,\nsee\nAWS Free Tier\n.\nOn-Demand Instances\nPay for the instances that you use by the second, with a minimum of 60\nseconds, with no long-term commitments or upfront payments.\nSavings Plans\nYou can reduce your Amazon EC2 costs by making a commitment to a consistent\namount of usage, in USD per hour, for a term of 1 or 3 years.\nReserved Instances\nYou can reduce your Amazon EC2 costs by making a commitment to a specific\ninstance configuration, including instance type and Region, for a term of 1\nor 3 years.\nSpot Instances\nRequest unused EC2 instances, which can reduce your Amazon EC2 costs\nsignificantly.\nDedicated Hosts\nReduce costs by using a physical EC2 server that is fully dedicated for\nyour use, either On-Demand or as part of a Savings Plan. You can use your\nexisting server-bound software licenses and get help meeting compliance\nrequirements.\nOn-Demand Capacity Reservations"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_010",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 9,
+        "content": "your use, either On-Demand or as part of a Savings Plan. You can use your\nexisting server-bound software licenses and get help meeting compliance\nrequirements.\nOn-Demand Capacity Reservations\nReserve compute capacity for your EC2 instances in a specific Availability\nZone for any duration of time.\nPer-second billing\nRemoves the cost of unused minutes and seconds from your bill.\nFor a complete list of charges and prices for Amazon EC2 and more information about the purchase\nmodels, see\nAmazon EC2 pricing\n.\nEstimates, billing, and cost optimization\nTo create estimates for your AWS use cases, use the\nAWS Pricing Calculator\n.\nTo estimate the cost of transforming\nMicrosoft\nworkloads\nto a modern architecture that uses open source and\ncloud-native services deployed on AWS, use the\nAWS\nModernization Calculator for Microsoft Workloads\n.\nTo see your bill, go to the\nBilling and Cost Management\nDashboard\nin the\nAWS Billing and Cost Management\nconsole"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_011",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 10,
+        "content": "AWS\nModernization Calculator for Microsoft Workloads\n.\nTo see your bill, go to the\nBilling and Cost Management\nDashboard\nin the\nAWS Billing and Cost Management\nconsole\n. Your bill contains links to usage reports that provide details\nabout your bill. To learn more about AWS account billing, see\nAWS Billing and Cost Management User\nGuide\n.\nIf you have questions concerning AWS billing, accounts, and events,\ncontact AWS Support\n.\nTo calculate the cost of a sample provisioned\nenvironment, see\nCloud Economics\nCenter\n.\nWhen calculating the cost of a provisioned\nenvironment, remember to include incidental costs such as snapshot storage for EBS\nvolumes.\nYou can optimize the cost, security, and performance of your AWS environment\nusing\nAWS Trusted Advisor\n.\nYou can use AWS Cost Explorer to analyze the cost and usage of your EC2 instances. You can view\ndata up to the last 13 months, and forecast how much you are likely to spend for the next\n12 months. For more information, see"
+    },
+    {
+        "chunk_id": "ec2_001_chunk_012",
+        "document_id": "ec2_001",
+        "service": "EC2",
+        "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+        "source_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "chunk_index": 11,
+        "content": "data up to the last 13 months, and forecast how much you are likely to spend for the next\n12 months. For more information, see\nAnalyzing your costs and usage with\nAWS Cost Explorer\nin the\nAWS Cost Management User Guide\n.\nResources\nAmazon EC2 features\nAWS re:Post\nAWS Skill Builder\nAWS Support\nHands-on Tutorials\nWeb Hosting\nWindows on AWS"
+    },
+    {
+        "chunk_id": "iam_001_chunk_001",
+        "document_id": "iam_001",
+        "service": "IAM",
+        "title": "What is IAM? - AWS Identity and Access Management",
+        "source_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "chunk_index": 0,
+        "content": "What is IAM?\nAWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS\nresources. With IAM, you can manage permissions that control which AWS resources users can\naccess. You use IAM to control who is authenticated (signed in) and authorized (has\npermissions) to use resources. IAM provides the infrastructure necessary to control\nauthentication and authorization for your AWS accounts.\nFor instructions on setting up your AWS account and creating identities, see\nGetting started with IAM\n.\nIdentities\nWhen you create an AWS account, you begin with one sign-in identity called the AWS account\nroot user\nthat has complete access to all AWS services and resources. We strongly recommend that you don't use the root user for everyday tasks. For tasks that require root user credentials, see\nTasks that require root user credentials\nin the\nIAM User Guide\n.\nUse IAM to set up other identities in addition to your"
+    },
+    {
+        "chunk_id": "iam_001_chunk_002",
+        "document_id": "iam_001",
+        "service": "IAM",
+        "title": "What is IAM? - AWS Identity and Access Management",
+        "source_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "chunk_index": 1,
+        "content": "Tasks that require root user credentials\nin the\nIAM User Guide\n.\nUse IAM to set up other identities in addition to your\nroot user, such as administrators, analysts, and developers, and grant them access to the resources\nthey need to succeed in their tasks.\nAccess management\nAfter a user is set up in IAM, they use their sign-in credentials to authenticate with\nAWS. Authentication is provided by matching the sign-in credentials to a principal (an\nIAM user, AWS STS federated principal, IAM role, or application) trusted by the AWS account. Next, a\nrequest is made to grant the principal access to resources. Access is granted in response to an\nauthorization request if the user has been given permission to the resource. For example, when\nyou first sign in to the console and are on the console Home page, you aren't accessing a\nspecific service. When you select a service, the request for authorization is sent to that"
+    },
+    {
+        "chunk_id": "iam_001_chunk_003",
+        "document_id": "iam_001",
+        "service": "IAM",
+        "title": "What is IAM? - AWS Identity and Access Management",
+        "source_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "chunk_index": 2,
+        "content": "you first sign in to the console and are on the console Home page, you aren't accessing a\nspecific service. When you select a service, the request for authorization is sent to that\nservice and it looks to see if your identity is on the list of authorized users, what policies\nare being enforced to control the level of access granted, and any other policies that might be\nin effect. Authorization requests can be made by principals within your AWS account or from\nanother AWS account that you trust.\nOnce authorized, the principal can take action or perform operations on resources in your\nAWS account. For example, the principal could launch a new Amazon Elastic Compute Cloud instance, modify\nIAM group membership, or delete Amazon Simple Storage Service buckets.\nTip\nAWS Skill Builder provides a 10-minute video introduction to IAM:\nIntroduction to\nAWS Identity and Access Management\non the AWS Skill Builder website.\nService availability\nIAM, like many other AWS services, is"
+    },
+    {
+        "chunk_id": "iam_001_chunk_004",
+        "document_id": "iam_001",
+        "service": "IAM",
+        "title": "What is IAM? - AWS Identity and Access Management",
+        "source_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "chunk_index": 3,
+        "content": "Introduction to\nAWS Identity and Access Management\non the AWS Skill Builder website.\nService availability\nIAM, like many other AWS services, is\neventually consistent\n.\nIAM achieves high availability by replicating data across multiple servers within\nAmazon's data centers around the world. If a request to change some data is successful,\nthe change is committed and safely stored. However, the change must be replicated across\nIAM, which can take some time. Such changes include creating or updating users,\ngroups, roles, or policies. We recommend that you do not include such IAM changes in the\ncritical, high-availability code paths of your application. Instead, make IAM changes in\na separate initialization or setup routine that you run less frequently. Also, be sure\nto verify that the changes have been propagated before production workflows depend on\nthem. For more information, see\nChanges that I make are not always immediately visible\n.\nService cost information"
+    },
+    {
+        "chunk_id": "iam_001_chunk_005",
+        "document_id": "iam_001",
+        "service": "IAM",
+        "title": "What is IAM? - AWS Identity and Access Management",
+        "source_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "chunk_index": 4,
+        "content": "to verify that the changes have been propagated before production workflows depend on\nthem. For more information, see\nChanges that I make are not always immediately visible\n.\nService cost information\nAWS Identity and Access Management (IAM), AWS IAM Identity Center and AWS Security Token Service (AWS STS) are features of your AWS account offered at no additional charge. You are\ncharged only when you access other AWS services using your IAM users or AWS STS temporary security credentials.\nIAM Access Analyzer external access analysis is offered at no additional charge. However, you will incur charges for unused access analysis and customer policy checks. For a complete list of charges and prices for IAM Access Analyzer, see\nIAM Access Analyzer pricing\n.\nFor information about the pricing of other AWS products, see the\nAmazon Web Services pricing\npage\n.\nIntegration with other AWS services"
+    },
+    {
+        "chunk_id": "iam_001_chunk_006",
+        "document_id": "iam_001",
+        "service": "IAM",
+        "title": "What is IAM? - AWS Identity and Access Management",
+        "source_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "chunk_index": 5,
+        "content": "IAM Access Analyzer pricing\n.\nFor information about the pricing of other AWS products, see the\nAmazon Web Services pricing\npage\n.\nIntegration with other AWS services\nIAM is integrated with many AWS services. For a list of AWS services that work with IAM and the IAM features the services support, see\nAWS services that work with IAM\n."
+    },
+    {
+        "chunk_id": "s3_001_chunk_001",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 0,
+        "content": "What is Amazon S3?\nAmazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability,\ndata availability, security, and performance. Customers of all sizes and industries can use\nAmazon S3 to store and protect any amount of data for a range of use cases, such as data lakes,\nwebsites, mobile applications, backup and restore, archive, enterprise applications, IoT\ndevices, and big data analytics. Amazon S3 provides management features so that you can optimize,\norganize, and configure access to your data to meet your specific business, organizational,\nand compliance requirements.\nNote\nFor more information about using the Amazon S3 Express One Zone storage class with directory buckets, see\nS3 Express One Zone\nand\nWorking with directory buckets\n.\nTopics\nFeatures of Amazon S3\nHow Amazon S3 works\nAmazon S3 data consistency model\nRelated services\nAccessing Amazon S3\nPaying for Amazon S3\nPCI DSS compliance\nFeatures of Amazon S3\nStorage classes"
+    },
+    {
+        "chunk_id": "s3_001_chunk_002",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 1,
+        "content": ".\nTopics\nFeatures of Amazon S3\nHow Amazon S3 works\nAmazon S3 data consistency model\nRelated services\nAccessing Amazon S3\nPaying for Amazon S3\nPCI DSS compliance\nFeatures of Amazon S3\nStorage classes\nAmazon S3 offers a range of storage classes designed for different use cases. For\nexample, you can store mission-critical production data in S3 Standard or S3 Express One Zone for frequent\naccess, save costs by storing infrequently accessed data in S3 Standard-IA or\nS3 One Zone-IA, and archive data at the lowest costs in S3 Glacier Instant Retrieval,\nS3 Glacier Flexible Retrieval, and S3 Glacier Deep Archive.\nAmazon S3 Express One Zone is a high-performance, single-zone Amazon S3 storage class that is purpose-built\nto deliver consistent, single-digit millisecond data access for your most\nlatency-sensitive applications. S3 Express One Zone is the lowest latency cloud object\nstorage class available today, with data access\nspeeds\nup to 10x faster and with request costs\n80"
+    },
+    {
+        "chunk_id": "s3_001_chunk_003",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 2,
+        "content": "latency-sensitive applications. S3 Express One Zone is the lowest latency cloud object\nstorage class available today, with data access\nspeeds\nup to 10x faster and with request costs\n80\npercent lower than S3 Standard. S3 Express One Zone is the first S3 storage class where you can select a single Availability Zone with\nthe option to co-locate your object storage with your compute resources, which provides the highest possible access speed.\nAdditionally, to further increase access speed and support hundreds of thousands of\nrequests per second, data is stored in a new bucket type: an\nAmazon S3 directory bucket. For more information, see\nS3 Express One Zone\nand\nWorking with directory buckets\n.\nYou can store data with changing or unknown access patterns in\nS3 Intelligent-Tiering, which optimizes storage costs by automatically moving your\ndata between four access tiers when your access patterns change. These four access"
+    },
+    {
+        "chunk_id": "s3_001_chunk_004",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 3,
+        "content": "S3 Intelligent-Tiering, which optimizes storage costs by automatically moving your\ndata between four access tiers when your access patterns change. These four access\ntiers include two low-latency access tiers optimized for frequent and infrequent\naccess, and two opt-in archive access tiers designed for asynchronous access for\nrarely accessed data.\nFor more information, see\nUnderstanding and managing Amazon S3 storage classes\n.\nStorage management\nAmazon S3 has storage management features that you can use to manage costs, meet\nregulatory requirements, reduce latency, and save multiple distinct copies of your\ndata for compliance requirements.\nS3 Lifecycle\nâ Configure a lifecycle configuration to manage\nyour objects and store them cost effectively throughout their lifecycle. You\ncan transition objects to other S3 storage classes or expire objects that\nreach the end of their lifetimes.\nS3 Object Lock\nâ Prevent Amazon S3 objects from being"
+    },
+    {
+        "chunk_id": "s3_001_chunk_005",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 4,
+        "content": "can transition objects to other S3 storage classes or expire objects that\nreach the end of their lifetimes.\nS3 Object Lock\nâ Prevent Amazon S3 objects from being\ndeleted or overwritten for a fixed amount of time or indefinitely. You can\nuse Object Lock to help meet regulatory requirements that require\nwrite-once-read-many\n(WORM)\nstorage or to simply add another\nlayer of protection against object changes and deletions.\nS3 Replication\nâ Replicate objects and their respective metadata and object tags to\none or more destination buckets in the same or different AWS Regions for\nreduced latency, compliance, security, and other use cases.\nS3 Batch Operations\nâ Manage billions of objects at scale\nwith a single S3 API request or a few clicks in the Amazon S3 console. You can\nuse Batch Operations to perform operations such as\nCopy\n,\nInvoke AWS Lambda\nfunction\n, and\nRestore\non\nmillions or billions of objects.\nAccess management and security"
+    },
+    {
+        "chunk_id": "s3_001_chunk_006",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 5,
+        "content": "use Batch Operations to perform operations such as\nCopy\n,\nInvoke AWS Lambda\nfunction\n, and\nRestore\non\nmillions or billions of objects.\nAccess management and security\nAmazon S3 provides features for auditing and managing access to your buckets and\nobjects. By default, S3 buckets and the objects in them are private. You have access\nonly to the S3 resources that you create. To grant granular resource permissions\nthat support your specific use case or to audit the permissions of your Amazon S3\nresources, you can use the following features.\nS3 Block Public Access\nâ Block public access to S3\nbuckets and objects. By default, Block Public Access settings are turned on\nat the bucket level. We recommend that you keep all Block Public Access\nsettings enabled unless you know that you need to turn off one or more of\nthem for your specific use case. For more information, see\nConfiguring block public access settings for your S3 buckets\n.\nAWS Identity and Access Management (IAM)"
+    },
+    {
+        "chunk_id": "s3_001_chunk_007",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 6,
+        "content": "them for your specific use case. For more information, see\nConfiguring block public access settings for your S3 buckets\n.\nAWS Identity and Access Management (IAM)\nâ IAM is a web service that helps\nyou securely control access to AWS resources, including your Amazon S3\nresources. With IAM, you can centrally manage permissions that control\nwhich AWS resources users can access. You use IAM to control who is\nauthenticated (signed in) and authorized (has permissions) to use\nresources.\nBucket\npolicies\nâ Use IAM-based policy language to configure\nresource-based permissions for your S3 buckets and the objects in\nthem.\nAmazon S3 access points\nâ Configure named network endpoints with dedicated access policies to\nmanage data access at scale for shared datasets in Amazon S3.\nAccess control\nlists (ACLs)\nâ Grant read and write permissions for\nindividual buckets and objects to authorized users. As a general rule, we\nrecommend using S3 resource-based policies (bucket policies and access point"
+    },
+    {
+        "chunk_id": "s3_001_chunk_008",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 7,
+        "content": "â Grant read and write permissions for\nindividual buckets and objects to authorized users. As a general rule, we\nrecommend using S3 resource-based policies (bucket policies and access point\npolicies) or IAM user policies for access control instead of ACLs.\nPolicies are a simplified and more flexible access control option. With\nbucket policies and access point policies, you can define rules that apply\nbroadly across all requests to your Amazon S3 resources. For more information\nabout the specific cases when you'd use ACLs instead of resource-based\npolicies or IAM user policies, see\nManaging access with ACLs\n.\nS3 Object Ownership\nâ Take ownership of every object\nin your bucket, simplifying access management for data stored in Amazon S3.\nS3 Object Ownership is an Amazon S3 bucket-level setting that you can use to\ndisable or enable ACLs. By default, ACLs are disabled. With ACLs disabled,\nthe bucket owner owns all the objects in the bucket and manages access to"
+    },
+    {
+        "chunk_id": "s3_001_chunk_009",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 8,
+        "content": "disable or enable ACLs. By default, ACLs are disabled. With ACLs disabled,\nthe bucket owner owns all the objects in the bucket and manages access to\ndata exclusively by using access-management policies.\nIAM Access Analyzer for S3\nâ Evaluate and monitor your S3 bucket access policies, ensuring that\nthe policies provide only the intended access to your S3 resources.\nData processing\nTo transform data and trigger workflows to automate a variety of other processing\nactivities at scale, you can use the following features.\nS3 Object Lambda\nâ Add your own code to S3 GET, HEAD, and LIST requests to modify and process data as\nit is returned to an application. Filter rows, dynamically resize images,\nredact confidential data, and much more.\nEvent\nnotifications\nâ Trigger workflows that use Amazon Simple Notification Service\n(Amazon SNS), Amazon Simple Queue Service (Amazon SQS), and AWS Lambda when a change is made to your S3\nresources.\nStorage logging and monitoring"
+    },
+    {
+        "chunk_id": "s3_001_chunk_010",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 9,
+        "content": "(Amazon SNS), Amazon Simple Queue Service (Amazon SQS), and AWS Lambda when a change is made to your S3\nresources.\nStorage logging and monitoring\nAmazon S3 provides logging and monitoring tools that you can use to monitor and control\nhow your Amazon S3 resources are being used. For more information, see\nMonitoring\ntools\n.\nAutomated monitoring tools\nAmazon CloudWatch\nmetrics for Amazon S3\nâ Track the operational health of your\nS3 resources and configure billing alerts when estimated charges reach a\nuser-defined threshold.\nAWS CloudTrail\nâ Record actions taken by a user, a role, or an AWS service in\nAmazon S3. CloudTrail logs provide you with detailed API tracking for S3 bucket-level\nand object-level operations.\nManual monitoring tools\nServer access\nlogging\nâ Get detailed records for the requests that are\nmade to a bucket. You can use server access logs for many use cases, such as\nconducting security and access audits, learning about your customer base,"
+    },
+    {
+        "chunk_id": "s3_001_chunk_011",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 10,
+        "content": "made to a bucket. You can use server access logs for many use cases, such as\nconducting security and access audits, learning about your customer base,\nand understanding your Amazon S3 bill.\nAWS Trusted\nAdvisor\nâ Evaluate your account by using AWS best\npractice checks to identify ways to optimize your AWS infrastructure,\nimprove security and performance, reduce costs, and monitor service quotas.\nYou can then follow the recommendations to optimize your services and\nresources.\nAnalytics and insights\nAmazon S3 offers features to help you gain visibility into your storage usage, which\nempowers you to better understand, analyze, and optimize your storage at\nscale.\nAmazon S3 Storage Lens\nâ Understand, analyze, and optimize your storage. S3 Storage Lens provides\n60+ usage and activity metrics and interactive dashboards to aggregate data\nfor your entire organization, specific accounts, AWS Regions, buckets, or\nprefixes.\nStorage\nClass Analysis\nâ Analyze storage access patterns to"
+    },
+    {
+        "chunk_id": "s3_001_chunk_012",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 11,
+        "content": "for your entire organization, specific accounts, AWS Regions, buckets, or\nprefixes.\nStorage\nClass Analysis\nâ Analyze storage access patterns to\ndecide when it's time to move data to a more cost-effective storage class.\nS3 Inventory with\nInventory reports\nâ Audit and report on objects and their\ncorresponding metadata and configure other Amazon S3 features to take action in\nInventory reports. For example, you can report on the replication and\nencryption status of your objects. For a list of all the metadata available\nfor each object in Inventory reports, see\nAmazon S3 Inventory list\n.\nStrong consistency\nAmazon S3 provides strong read-after-write consistency for PUT and DELETE requests of\nobjects in your Amazon S3 bucket in all AWS Regions. This behavior applies to both\nwrites of new objects as well as PUT requests that overwrite existing objects and\nDELETE requests. In addition, read operations on Amazon S3 Select, Amazon S3 access control"
+    },
+    {
+        "chunk_id": "s3_001_chunk_013",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 12,
+        "content": "writes of new objects as well as PUT requests that overwrite existing objects and\nDELETE requests. In addition, read operations on Amazon S3 Select, Amazon S3 access control\nlists (ACLs), Amazon S3 Object Tags, and object metadata (for example, the HEAD object)\nare strongly consistent. For more information, see\nAmazon S3 data consistency model\n.\nHow Amazon S3 works\nAmazon S3 is an object storage service that stores data as objects, hierarchical data, or tabular data within buckets. An\nobject\nis a file and any metadata that describes\nthe file. A\nbucket\nis a container for objects.\nTo store your data in Amazon S3, you first create a bucket and specify a bucket name and\nAWS Region. Then, you upload your data to that bucket as objects in Amazon S3. Each object\nhas a\nkey\n(or\nkey\nname\n), which is the unique identifier for the object within the\nbucket.\nS3 provides features that you can configure to support your specific use case. For"
+    },
+    {
+        "chunk_id": "s3_001_chunk_014",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 13,
+        "content": "has a\nkey\n(or\nkey\nname\n), which is the unique identifier for the object within the\nbucket.\nS3 provides features that you can configure to support your specific use case. For\nexample, you can use S3 Versioning to keep multiple versions of an object in the same\nbucket, which allows you to restore objects that are accidentally deleted or\noverwritten.\nBuckets and the objects in them are private and can be accessed only if you explicitly\ngrant access permissions. You can use bucket policies, AWS Identity and Access Management (IAM) policies,\naccess control lists (ACLs), and S3 Access Points to manage access.\nTopics\nBuckets\nObjects\nKeys\nS3 Versioning\nVersion ID\nBucket policy\nS3 access points\nAccess control lists (ACLs)\nRegions\nBuckets\nAmazon S3 supports four types of bucketsâgeneral purpose buckets, directory buckets, table buckets, and vector buckets. Each type of bucket provides a unique set of features for different use cases.\nGeneral purpose buckets"
+    },
+    {
+        "chunk_id": "s3_001_chunk_015",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 14,
+        "content": "General purpose buckets\nâ General purpose buckets are recommended for most use cases and access patterns and are the original S3 bucket type.\nA general purpose bucket is a container for objects stored in Amazon S3, and you can store any number of objects in a bucket and across all storage classes (except for\nS3 Express One Zone), so you can redundantly store objects across multiple Availability Zones. For more information, see\nCreating, configuring, and working with Amazon S3 general purpose buckets\n.\nBy default, general purpose buckets exist in a global namespace, which means that each bucket name must be unique across all AWS accounts in all the AWS Regions within a partition. A partition is a grouping of Regions. AWS currently has four partitions:\naws\n(Standard Regions),\naws-cn\n(China Regions),\naws-us-gov\n(AWS GovCloud (US)), and\naws-eusc"
+    },
+    {
+        "chunk_id": "s3_001_chunk_016",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 15,
+        "content": "aws\n(Standard Regions),\naws-cn\n(China Regions),\naws-us-gov\n(AWS GovCloud (US)), and\naws-eusc\n(European Sovereign Cloud). When you create a general purpose bucket, you can choose to create a bucket in the shared global namespace or you can choose to create a bucket in your account regional namespace. Your account regional namespace is a subdivision of the global namespace that only your account can create buckets in. New general purpose buckets created in your account regional namespace are unique to your account and can never be re-created by another account. For more information on bucket namespaces, see\nNamespaces for general purpose buckets\n.\nNote\nBy default, all general purpose buckets are private. However, you can grant public access to general purpose buckets.\nYou can control access to general purpose buckets at the bucket, prefix (folder), or object tag level.\nFor more information, see\nAccess control in Amazon S3\n.\nDirectory buckets"
+    },
+    {
+        "chunk_id": "s3_001_chunk_017",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 16,
+        "content": "You can control access to general purpose buckets at the bucket, prefix (folder), or object tag level.\nFor more information, see\nAccess control in Amazon S3\n.\nDirectory buckets\nâ Recommended for low-latency use cases and data-residency use cases. By default, you can create up to 100 directory buckets in your\nAWS account, with no limit on the number of objects that you can store in a directory bucket. Directory buckets organize objects into hierarchical directories (prefixes) instead of the flat storage structure\nof general purpose buckets. This bucket type has no prefix limits and individual directories can scale horizontally. For more information, see\nWorking with directory buckets\n.\nFor low-latency use cases, you can create a directory bucket in a single AWS Availability Zone to store data. Directory buckets in Availability Zones support the"
+    },
+    {
+        "chunk_id": "s3_001_chunk_018",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 17,
+        "content": "Working with directory buckets\n.\nFor low-latency use cases, you can create a directory bucket in a single AWS Availability Zone to store data. Directory buckets in Availability Zones support the\nS3 Express One Zone storage class. With S3 Express One Zone, your data is redundantly stored on multiple devices within a single Availability Zone. The S3 Express One Zone storage class is recommended if your application\nis performance sensitive and benefits from single-digit millisecond\nPUT\nand\nGET\nlatencies. To learn more about creating directory buckets in Availability Zones, see\nHigh performance workloads\n.\nFor data-residency use cases, you can create a directory bucket in a single AWS Dedicated Local Zone (DLZ) to store data. In Dedicated Local Zones, you can create S3 directory buckets to store data"
+    },
+    {
+        "chunk_id": "s3_001_chunk_019",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 18,
+        "content": ".\nFor data-residency use cases, you can create a directory bucket in a single AWS Dedicated Local Zone (DLZ) to store data. In Dedicated Local Zones, you can create S3 directory buckets to store data\nin a specific data perimeter, which helps support your data residency and isolation use cases. Directory buckets in Local Zones support the S3 One Zone-Infrequent Access (S3 One Zone-IA; Z-IA) storage class. To learn more about creating\ndirectory buckets in Local Zones, see\nData residency workloads\n.\nNote\nDirectory buckets have all public access disabled by default. This behavior can't be changed. You can't grant access to objects stored in directory buckets. You can grant access only to your\ndirectory buckets. For more information, see\nAuthenticating and authorizing requests\n.\nTable buckets"
+    },
+    {
+        "chunk_id": "s3_001_chunk_020",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 19,
+        "content": "directory buckets. For more information, see\nAuthenticating and authorizing requests\n.\nTable buckets\nâ Recommended for storing tabular data, such as daily purchase transactions, streaming sensor data, or ad impressions. Tabular data represents data in columns and rows, like in a database table. Table buckets provide\nS3 storage that's optimized for analytics and machine learning workloads, with features designed to continuously improve query performance and reduce storage costs for tables. S3 Tables are purpose-built for\nstoring tabular data in the Apache Iceberg format. You can query tabular data in S3 Tables with popular query engines, including\nAmazon Athena, Amazon Redshift, and Apache Spark. By default, you can create up to 10 table buckets per AWS account per AWS Region\nand up to 10,000 tables per table bucket. For more information, see\nWorking with S3 Tables and table buckets\n.\nNote"
+    },
+    {
+        "chunk_id": "s3_001_chunk_021",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 20,
+        "content": "and up to 10,000 tables per table bucket. For more information, see\nWorking with S3 Tables and table buckets\n.\nNote\nAll table buckets and tables are private and can't be made public. These resources can only be accessed by users who are explicitly granted access. To grant access, you can use IAM resource-based policies\nfor table buckets and tables, and IAM identity-based policies for users and roles. For more information, see\nSecurity for S3 Tables\n.\nVector buckets\nâ S3 vector buckets are a type of Amazon S3 bucket that are purpose-built to store and query vectors. Vector buckets use dedicated API operations to write and query vector data efficiently. With S3 vector buckets, you can store vector embeddings for machine learning models, perform similarity searches, and integrate with services like Amazon Bedrock and Amazon OpenSearch."
+    },
+    {
+        "chunk_id": "s3_001_chunk_022",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 21,
+        "content": "S3 vector buckets organize data using vector indexes, which are resources within a bucket that store and organize vector data for efficient similarity search. Each vector index can be configured with specific dimensions, distance metrics (like cosine similarity), and metadata configurations to optimize for your specific use case. For more information, see\nWorking with S3 Vectors and vector buckets\n.\nAdditional information about all bucket types\nWhen you create a bucket, you enter a bucket name and choose the AWS Region\nwhere the bucket will reside. After you create a bucket, you cannot change the name\nof the bucket or its Region. Bucket names must follow the following bucket naming rules:\nGeneral purpose bucket naming rules\nDirectory bucket naming rules\nTable bucket naming rules\nBuckets also:\nOrganize the Amazon S3 namespace at the highest level. For general purpose buckets, this namespace is\nS3\n. For directory buckets,\nthis namespace is\ns3express"
+    },
+    {
+        "chunk_id": "s3_001_chunk_023",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 22,
+        "content": "Table bucket naming rules\nBuckets also:\nOrganize the Amazon S3 namespace at the highest level. For general purpose buckets, this namespace is\nS3\n. For directory buckets,\nthis namespace is\ns3express\n. For table buckets, this namespace is\ns3tables\n.\nIdentify the account responsible for storage and data transfer\ncharges.\nServe as the unit of aggregation for usage reporting.\nObjects\nObjects are the fundamental entities stored in Amazon S3. Objects consist of object\ndata and metadata. The metadata is a set of name-value pairs that describe the\nobject. These pairs include some default metadata, such as the date last modified,\nand standard HTTP metadata, such as\nContent-Type\n. You can also specify\ncustom metadata at the time that the object is stored.\nEvery object is contained in a bucket. For example, if the object named\nphotos/puppy.jpg\nis stored in the\namzn-s3-demo-bucket\ngeneral purpose bucket in the US West (Oregon)\nRegion, then it is addressable by using the URL"
+    },
+    {
+        "chunk_id": "s3_001_chunk_024",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 23,
+        "content": "photos/puppy.jpg\nis stored in the\namzn-s3-demo-bucket\ngeneral purpose bucket in the US West (Oregon)\nRegion, then it is addressable by using the URL\nhttps://amzn-s3-demo-bucket.s3.us-west-2.amazonaws.com/photos/puppy.jpg\n.\nFor more information, see\nAccessing a\nBucket\n.\nAn object is uniquely identified within a bucket by a\nkey (name)\nand a\nversion ID\n(if\nS3 Versioning is enabled on the bucket). For more information about objects, see\nAmazon S3 objects overview\n.\nKeys\nAn\nobject key\n(or\nkey\nname\n) is the unique identifier for an object within a bucket. Every\nobject in a bucket has exactly one key. The combination of a bucket, object key, and\noptionally, version ID (if S3 Versioning is enabled for the bucket) uniquely identify\neach object. So you can think of Amazon S3 as a basic data map between \"bucket + key +\nversion\" and the object itself.\nEvery object in Amazon S3 can be uniquely addressed through the combination of the web service"
+    },
+    {
+        "chunk_id": "s3_001_chunk_025",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 24,
+        "content": "version\" and the object itself.\nEvery object in Amazon S3 can be uniquely addressed through the combination of the web service\nendpoint, bucket name, key, and optionally, a version. For example, in the URL\nhttps://\namzn-s3-demo-bucket\n.s3.us-west-2.amazonaws.com/photos/puppy.jpg\n,\namzn-s3-demo-bucket\nis the name of the bucket\nand\nphotos/puppy.jpg\nis the key.\nFor more information about object keys, see\nNaming Amazon S3 objects\n.\nS3 Versioning\nYou can use S3 Versioning to keep multiple variants of an object in the same\nbucket. With S3 Versioning, you can preserve, retrieve, and restore every version of\nevery object stored in your buckets. You can easily recover from both unintended\nuser actions and application failures.\nFor more information, see\nRetaining multiple versions of objects with S3 Versioning\n.\nVersion ID\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for\neach object added to the bucket. Objects that already existed in the bucket at the"
+    },
+    {
+        "chunk_id": "s3_001_chunk_026",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 25,
+        "content": ".\nVersion ID\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for\neach object added to the bucket. Objects that already existed in the bucket at the\ntime that you enable versioning have a version ID of\nnull\n. If you\nmodify these (or any other) objects with other operations, such as\nCopyObject\nand\nPutObject\n, the new objects\nget a unique version ID.\nFor more information, see\nRetaining multiple versions of objects with S3 Versioning\n.\nBucket policy\nA bucket policy is a resource-based AWS Identity and Access Management (IAM) policy that you can use to\ngrant access permissions to your bucket and the objects in it. Only the bucket owner\ncan associate a policy with a bucket. The permissions attached to the bucket apply\nto all of the objects in the bucket that are owned by the bucket owner. Bucket\npolicies are limited to 20 KB in size.\nBucket policies use JSON-based access policy language that is standard across"
+    },
+    {
+        "chunk_id": "s3_001_chunk_027",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 26,
+        "content": "to all of the objects in the bucket that are owned by the bucket owner. Bucket\npolicies are limited to 20 KB in size.\nBucket policies use JSON-based access policy language that is standard across\nAWS. You can use bucket policies to add or deny permissions for the objects in a\nbucket. Bucket policies allow or deny requests based on the elements in the policy,\nincluding the requester, S3 actions, resources, and aspects or conditions of the\nrequest (for example, the IP address used to make the request). For example, you can\ncreate a bucket policy that grants cross-account permissions to upload objects to an\nS3 bucket while ensuring that the bucket owner has full control of the uploaded\nobjects. For more information, see\nExamples of Amazon S3 bucket policies\n.\nIn your bucket policy, you can use wildcard characters on Amazon Resource Names\n(ARNs) and other values to grant permissions to a subset of objects. For example,\nyou can control access to groups of objects that begin with a common"
+    },
+    {
+        "chunk_id": "s3_001_chunk_028",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 27,
+        "content": "(ARNs) and other values to grant permissions to a subset of objects. For example,\nyou can control access to groups of objects that begin with a common\nprefix\nor end with a given extension, such as\n.html\n.\nS3 access points\nAmazon S3 access points are named network endpoints with dedicated access policies that\ndescribe how data can be accessed using that endpoint. Access points are attached to an\nunderlying data source, such as a general purpose bucket, directory bucket, or a FSx for OpenZFS volume, that you can use to\nperform S3 object operations, such as\nGetObject\nand\nPutObject\n. Access points simplify managing data access at scale for\nshared datasets in Amazon S3.\nEach access point has its own access point policy. You can configure\nBlock Public Access\nsettings\nfor each access point attached to a bucket. To restrict Amazon S3 data access to a private network, you can\nalso configure any access point to accept requests only from a virtual private cloud\n(VPC)."
+    },
+    {
+        "chunk_id": "s3_001_chunk_029",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 28,
+        "content": "for each access point attached to a bucket. To restrict Amazon S3 data access to a private network, you can\nalso configure any access point to accept requests only from a virtual private cloud\n(VPC).\nFor more information about access points for general purpose buckets, see\nManaging access to shared datasets with access points\n. For more information about access points for directory buckets, see\nManaging access to shared datasets in directory buckets with access points\n.\nAccess control lists (ACLs)\nYou can use ACLs to grant read and write permissions to authorized users for\nindividual general purpose buckets and objects. Each general purpose bucket and object has an ACL attached to it as\na subresource. The ACL defines which AWS accounts or groups are granted access and\nthe type of access. ACLs are an access control mechanism that predates IAM. For\nmore information about ACLs, see\nAccess control list (ACL) overview\n."
+    },
+    {
+        "chunk_id": "s3_001_chunk_030",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 29,
+        "content": "the type of access. ACLs are an access control mechanism that predates IAM. For\nmore information about ACLs, see\nAccess control list (ACL) overview\n.\nS3 Object Ownership is an Amazon S3 bucket-level setting that you can use to both control ownership of the objects that are\nuploaded to your bucket and to disable or enable ACLs. By default, Object Ownership is set to the Bucket owner enforced setting,\nand all ACLs are disabled. When ACLs are disabled, the bucket owner owns all the objects in the bucket and manages access to them\nexclusively by using access-management policies.\nA majority of modern use cases in Amazon S3 no longer require the use of ACLs. We recommend that you keep ACLs disabled, except\nin circumstances where you need to control access for each object individually. With ACLs disabled, you can use policies\nto control access to all objects in your bucket, regardless of who uploaded the objects to your bucket.\nFor more information, see"
+    },
+    {
+        "chunk_id": "s3_001_chunk_031",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 30,
+        "content": "to control access to all objects in your bucket, regardless of who uploaded the objects to your bucket.\nFor more information, see\nControlling ownership of objects and disabling ACLs for your bucket\n.\nRegions\nYou can choose the geographical AWS Region where Amazon S3 stores the buckets that\nyou create. You might choose a Region to optimize latency, minimize costs, or\naddress regulatory requirements. Objects stored in an AWS Region never leave the\nRegion unless you explicitly transfer or replicate them to another Region.\nFor example, objects stored in the Europe (Ireland) Region\nnever leave it.\nNote\nYou can access Amazon S3 and its features only in the AWS Regions that are\nenabled for your account. For more information about enabling a Region to create\nand manage AWS resources, see\nManaging AWS Regions\nin\nthe\nAWS General Reference\n.\nFor a list of Amazon S3 Regions and endpoints, see\nRegions and endpoints\nin the\nAWS General Reference\n.\nAmazon S3 data consistency model"
+    },
+    {
+        "chunk_id": "s3_001_chunk_032",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 31,
+        "content": "Managing AWS Regions\nin\nthe\nAWS General Reference\n.\nFor a list of Amazon S3 Regions and endpoints, see\nRegions and endpoints\nin the\nAWS General Reference\n.\nAmazon S3 data consistency model\nAmazon S3 provides strong read-after-write consistency for PUT and DELETE requests of\nobjects in your Amazon S3 bucket in all AWS Regions. This behavior applies to both writes\nto new objects as well as PUT requests that overwrite existing objects and DELETE\nrequests. In addition, read operations on Amazon S3 Select, Amazon S3 access controls lists\n(ACLs), Amazon S3 Object Tags, and object metadata (for example, the HEAD object) are\nstrongly consistent.\nUpdates to a single key are atomic. For example, if you make a PUT request to an\nexisting key from one thread and perform a GET request on the same key from a second\nthread concurrently, you will get either the old data or the new data, but never partial\nor corrupt data."
+    },
+    {
+        "chunk_id": "s3_001_chunk_033",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 32,
+        "content": "existing key from one thread and perform a GET request on the same key from a second\nthread concurrently, you will get either the old data or the new data, but never partial\nor corrupt data.\nAmazon S3 achieves high availability by replicating data across multiple servers within\nAWS data centers. If a PUT request is successful, your data is safely stored. Any read\n(GET or LIST request) that is initiated following the receipt of a successful PUT\nresponse will return the data written by the PUT request. Here are examples of this\nbehavior:\nA process writes a new object to Amazon S3 and immediately lists keys within its\nbucket. The new object appears in the list.\nA process replaces an existing object and immediately tries to read it. Amazon S3\nreturns the new data.\nA process deletes an existing object and immediately tries to read it. Amazon S3\ndoes not return any data because the object has been deleted.\nA process deletes an existing object and immediately lists keys within its"
+    },
+    {
+        "chunk_id": "s3_001_chunk_034",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 33,
+        "content": "does not return any data because the object has been deleted.\nA process deletes an existing object and immediately lists keys within its\nbucket. The object does not appear in the listing.\nNote\nAmazon S3 does not support object locking for concurrent writers. If two PUT\nrequests are simultaneously made to the same key, the request with the\nlatest timestamp wins. If this is an issue, you must build an object-locking\nmechanism into your application.\nUpdates are key-based. There is no way to make atomic updates across keys.\nFor example, you cannot make the update of one key dependent on the update\nof another key unless you design this functionality into your\napplication.\nBucket configurations have an eventual consistency model. Specifically, this means\nthat:\nIf you delete a bucket and immediately list all buckets, the deleted bucket\nmight still appear in the list.\nIf you enable versioning on a bucket for the first time, it might take a short"
+    },
+    {
+        "chunk_id": "s3_001_chunk_035",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 34,
+        "content": "that:\nIf you delete a bucket and immediately list all buckets, the deleted bucket\nmight still appear in the list.\nIf you enable versioning on a bucket for the first time, it might take a short\namount of time for the change to be fully propagated. We recommend that you wait\nfor 15 minutes after enabling versioning before issuing write operations (PUT or\nDELETE requests) on objects in the bucket.\nConcurrent applications\nThis section provides examples of behavior to be expected from Amazon S3 when multiple\nclients are writing to the same items.\nIn this example, both W1 (write 1) and W2 (write 2) finish before the start of R1\n(read 1) and R2 (read 2). Because S3 is strongly consistent, R1 and R2 both return\ncolor = ruby\n.\nIn the next example, W2 does not finish before the start of R1. Therefore, R1\nmight return\ncolor = ruby\nor\ncolor = garnet\n. However,\nbecause W1 and W2 finish before the start of R2, R2 returns\ncolor =\ngarnet\n."
+    },
+    {
+        "chunk_id": "s3_001_chunk_036",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 35,
+        "content": "might return\ncolor = ruby\nor\ncolor = garnet\n. However,\nbecause W1 and W2 finish before the start of R2, R2 returns\ncolor =\ngarnet\n.\nIn the last example, W2 begins before W1 has received an acknowledgment.\nTherefore, these writes are considered concurrent. Amazon S3 internally uses\nlast-writer-wins semantics to determine which write takes precedence. However, the\norder in which Amazon S3 receives the requests and the order in which applications\nreceive acknowledgments cannot be predicted because of various factors, such as\nnetwork latency. For example, W2 might be initiated by an Amazon EC2 instance in the same\nRegion, while W1 might be initiated by a host that is farther away. The best way to\ndetermine the final value is to perform a read after both writes have been\nacknowledged.\nRelated services\nAfter you load your data into Amazon S3, you can use it with other AWS services. The\nfollowing are the services that you might use most frequently:\nAmazon Elastic Compute Cloud\n(Amazon EC2)"
+    },
+    {
+        "chunk_id": "s3_001_chunk_037",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 36,
+        "content": "After you load your data into Amazon S3, you can use it with other AWS services. The\nfollowing are the services that you might use most frequently:\nAmazon Elastic Compute Cloud\n(Amazon EC2)\nâ Provides secure and scalable computing\ncapacity in the AWS Cloud. Using Amazon EC2 eliminates your need to invest in\nhardware upfront, so you can develop and deploy applications faster. You can\nuse Amazon EC2 to launch as many or as few virtual servers as you need, configure\nsecurity and networking, and manage storage.\nAmazon EMR\nâ Helps businesses, researchers, data\nanalysts, and developers easily and cost-effectively process vast amounts of\ndata. Amazon EMR uses a hosted Hadoop framework running on the web-scale\ninfrastructure of Amazon EC2 and Amazon S3.\nAWS Transfer Family\nâ Provides fully managed support for\nfile transfers directly into and out of Amazon S3 or Amazon Elastic File System (Amazon EFS) using Secure\nShell (SSH) File Transfer Protocol (SFTP), File Transfer Protocol over SSL"
+    },
+    {
+        "chunk_id": "s3_001_chunk_038",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 37,
+        "content": "file transfers directly into and out of Amazon S3 or Amazon Elastic File System (Amazon EFS) using Secure\nShell (SSH) File Transfer Protocol (SFTP), File Transfer Protocol over SSL\n(FTPS), and File Transfer Protocol (FTP).\nAccessing Amazon S3\nYou can work with Amazon S3 in any of the following ways:\nAWS Management Console\nThe console is a web-based user interface for managing Amazon S3 and AWS resources.\nIf you've signed up for an AWS account, you can access the Amazon S3 console by signing\ninto the AWS Management Console and choosing\nS3\nfrom the AWS Management Console home\npage.\nAWS Command Line Interface\nYou can use the AWS command line tools to issue commands or build scripts at\nyour system's command line to perform AWS (including S3) tasks.\nThe\nAWS Command Line Interface (AWS CLI)\nprovides commands\nfor a broad set of AWS services. The AWS CLI is supported on Windows, macOS, and\nLinux. To get started, see the\nAWS Command Line Interface User Guide"
+    },
+    {
+        "chunk_id": "s3_001_chunk_039",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 38,
+        "content": "provides commands\nfor a broad set of AWS services. The AWS CLI is supported on Windows, macOS, and\nLinux. To get started, see the\nAWS Command Line Interface User Guide\n. For more information about the commands for\nAmazon S3, see\ns3api\nand\ns3control\nin the\nAWS CLI Command Reference\n.\nAWS SDKs\nAWS provides SDKs (software development kits) that consist of libraries and sample code\nfor various programming languages and platforms (Java, Python, Ruby, .NET, iOS,\nAndroid, and so on). The AWS SDKs provide a convenient way to create programmatic\naccess to S3 and AWS. Amazon S3 is a REST service. You can send requests to Amazon S3 using\nthe AWS SDK libraries, which wrap the underlying Amazon S3 REST API and simplify your\nprogramming tasks. For example, the SDKs take care of tasks such as calculating\nsignatures, cryptographically signing requests, managing errors, and retrying\nrequests automatically. For information about the AWS SDKs, including how to\ndownload and install them, see\nTools for"
+    },
+    {
+        "chunk_id": "s3_001_chunk_040",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 39,
+        "content": "signatures, cryptographically signing requests, managing errors, and retrying\nrequests automatically. For information about the AWS SDKs, including how to\ndownload and install them, see\nTools for\nAWS\n.\nEvery interaction with Amazon S3 is either authenticated or anonymous. If you are using\nthe AWS SDKs, the libraries compute the signature for authentication from the keys\nthat you provide. For more information about how to make requests to Amazon S3, see\nMaking requests\n.\nAmazon S3 REST API\nThe architecture of Amazon S3 is designed to be programming language-neutral, using\nAWS-supported interfaces to store and retrieve objects. You can access S3 and\nAWS programmatically by using the Amazon S3 REST API. The REST API is an HTTP interface\nto Amazon S3. With the REST API, you use standard HTTP requests to create, fetch, and\ndelete buckets and objects.\nTo use the REST API, you can use any toolkit that supports HTTP. You can even use"
+    },
+    {
+        "chunk_id": "s3_001_chunk_041",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 40,
+        "content": "to Amazon S3. With the REST API, you use standard HTTP requests to create, fetch, and\ndelete buckets and objects.\nTo use the REST API, you can use any toolkit that supports HTTP. You can even use\na browser to fetch objects, as long as they are anonymously readable.\nThe REST API uses standard HTTP headers and status codes, so that standard\nbrowsers and toolkits work as expected. In some areas, we have added functionality\nto HTTP (for example, we added headers to support access control). In these cases,\nwe have done our best to add the new functionality in a way that matches the style\nof standard HTTP usage.\nIf you make direct REST API calls in your application, you must write the code to\ncompute the signature and add it to the request. For more information about how to\nmake requests to Amazon S3, see\nMaking requests\nin the\nAmazon S3 API Reference\n.\nNote\nSOAP API support over HTTP is deprecated, but it is still available over"
+    },
+    {
+        "chunk_id": "s3_001_chunk_042",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 41,
+        "content": "make requests to Amazon S3, see\nMaking requests\nin the\nAmazon S3 API Reference\n.\nNote\nSOAP API support over HTTP is deprecated, but it is still available over\nHTTPS. Newer Amazon S3 features are not supported for SOAP. We recommend that you use\neither the REST API or the AWS SDKs.\nPaying for Amazon S3\nPricing for Amazon S3 is designed so that you don't have to plan for the storage\nrequirements of your application. Most storage providers require you to purchase a\npredetermined amount of storage and network transfer capacity. In this scenario, if you\nexceed that capacity, your service is shut off or you are charged high overage fees. If\nyou do not exceed that capacity, you pay as though you used it all.\nAmazon S3 charges you only for what you actually use, with no hidden fees and no overage\ncharges. This model gives you a variable-cost service that can grow with your business\nwhile giving you the cost advantages of the AWS infrastructure. For more information,\nsee\nAmazon S3 Pricing\n."
+    },
+    {
+        "chunk_id": "s3_001_chunk_043",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 42,
+        "content": "charges. This model gives you a variable-cost service that can grow with your business\nwhile giving you the cost advantages of the AWS infrastructure. For more information,\nsee\nAmazon S3 Pricing\n.\nWhen you sign up for AWS, your AWS account is automatically signed up for all\nservices in AWS, including Amazon S3. However, you are charged only for the services that\nyou use. If you are a new Amazon S3 customer, you can get started with Amazon S3 for free. For\nmore information, see\nAWS free tier\n.\nTo see your bill, go to the Billing and Cost Management Dashboard in the\nAWS Billing and Cost Management console\n. To learn more about AWS account billing, see the\nAWS Billing User Guide\n. If you have\nquestions concerning AWS billing and AWS accounts, contact\nAWS Support\n.\nPCI DSS compliance\nAmazon S3 supports the processing, storage, and transmission\nof credit card data by a merchant or service provider, and has been"
+    },
+    {
+        "chunk_id": "s3_001_chunk_044",
+        "document_id": "s3_001",
+        "service": "S3",
+        "title": "What is Amazon S3? - Amazon Simple Storage Service",
+        "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "chunk_index": 43,
+        "content": "AWS Support\n.\nPCI DSS compliance\nAmazon S3 supports the processing, storage, and transmission\nof credit card data by a merchant or service provider, and has been\nvalidated as being compliant with Payment Card Industry (PCI) Data Security Standard (DSS).\nFor more information about PCI DSS, including how to request a copy of the AWS PCI Compliance Package,\nsee\nPCI DSS Level 1\n."
+    }
+]
